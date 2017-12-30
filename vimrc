@@ -25,7 +25,6 @@ set wrap
 " Spell checking on specific types of files
 autocmd FileType latex,tex,md,markdown setlocal spell
 set spelllang=en
-"set spellfile=~/.vim/spell/SuomiSanat.txt
 
 " air-line
 let g:airline_theme='distinguished'
