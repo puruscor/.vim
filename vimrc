@@ -1,7 +1,7 @@
+execute pathogen#infect()
 set nocompatible
 syntax enable
 color dracula
-execute pathogen#infect()
 filetype plugin indent on
 set autoindent
 set backupdir=$HOME/.vim/backups
@@ -21,6 +21,11 @@ set tabstop=4
 set ttimeoutlen=0
 set wildmenu
 set wrap
+
+" Spell checking on specific types of files
+autocmd FileType latex,tex,md,markdown setlocal spell
+set spelllang=en
+"set spellfile=~/.vim/spell/SuomiSanat.txt
 
 " air-line
 let g:airline_theme='distinguished'
