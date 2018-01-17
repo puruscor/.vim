@@ -22,10 +22,6 @@ set ttimeoutlen=0
 set wildmenu
 set wrap
 
-" Spell checking on specific types of files
-autocmd FileType latex,tex,md,markdown setlocal spell
-set spelllang=en
-
 " air-line
 let g:airline_theme='distinguished'
 let g:airline_powerline_fonts = 1
