@@ -24,6 +24,7 @@ set ttimeoutlen=0
 set wildmenu
 set wrap
 set hidden
+set updatetime=1000
 
 " airline theme & fonts
 let g:airline_theme='distinguished'
