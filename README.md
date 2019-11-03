@@ -3,5 +3,5 @@ Vim configuration
 
 ## Installation
 ```bash
-git clone --recursive https://github.com/puruscor/.vim ~/.vim
+git clone --recursive https://github.com/ArktinenKarpalo/.vim ~/.vim
 ```
